@@ -66,7 +66,9 @@ Este projeto não requer instalação de dependências ou servidor.
 
 1. Faça o download ou clone o repositório:
 
+```
 git clone git@github.com:rocha-henrique/FIMP.git
+```
 
 2. Acesse a pasta do projeto:
 
