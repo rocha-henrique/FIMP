@@ -41,6 +41,7 @@ A proposta consiste em criar uma tela responsiva relacionada a um sistema financ
 ---
 
 ## 📁 Estrutura do Projeto
+```
 📦 projeto-fintech
 ┣ 📂 dist
 ┃ ┣ 📂 css
@@ -55,6 +56,7 @@ A proposta consiste em criar uma tela responsiva relacionada a um sistema financ
 ┣ 📄 package.json
 ┣ 📄 package-lock.json
 ┗ 📄 README.md
+```
 
 ## 🚀 Como Executar o Projeto
 
