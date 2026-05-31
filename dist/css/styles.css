@@ -409,6 +409,21 @@
       outline-style: none;
     }
   }
+  .min-\[500px\]\:hidden {
+    @media (width >= 500px) {
+      display: none;
+    }
+  }
+  .min-\[505px\]\:hidden {
+    @media (width >= 505px) {
+      display: none;
+    }
+  }
+  .min-\[510px\]\:hidden {
+    @media (width >= 510px) {
+      display: none;
+    }
+  }
   .sm\:absolute {
     @media (width >= 40rem) {
       position: absolute;
@@ -442,6 +457,11 @@
   .sm\:block {
     @media (width >= 40rem) {
       display: block;
+    }
+  }
+  .sm\:hidden {
+    @media (width >= 40rem) {
+      display: none;
     }
   }
   .sm\:w-md {
@@ -485,6 +505,31 @@
     @media (width >= 40rem) {
       font-size: var(--text-9xl);
       line-height: var(--tw-leading, var(--text-9xl--line-height));
+    }
+  }
+  .xl\:fixed {
+    @media (width >= 80rem) {
+      position: fixed;
+    }
+  }
+  .xl\:bottom-0 {
+    @media (width >= 80rem) {
+      bottom: calc(var(--spacing) * 0);
+    }
+  }
+  .xl\:left-1\/2 {
+    @media (width >= 80rem) {
+      left: calc(1 / 2 * 100%);
+    }
+  }
+  .xl\:block {
+    @media (width >= 80rem) {
+      display: block;
+    }
+  }
+  .xl\:flex-row {
+    @media (width >= 80rem) {
+      flex-direction: row;
     }
   }
 }
